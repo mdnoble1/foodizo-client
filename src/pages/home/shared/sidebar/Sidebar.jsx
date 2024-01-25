@@ -17,7 +17,7 @@ const Sidebar = () => {
             to="/"
             className={({ isActive }) =>
               isActive
-                ? `text-[#ff5900] w-full rounded-lg border-b-2 border-b-[#ff5900] flex items-center justify-center gap-3 font-bold text-xl uppercase`
+                ? `w-full rounded-lg border border-[#ff5900] bg-[#ff5900] text-white flex items-center justify-center gap-3 font-bold text-xl uppercase`
                 : `text-black nav-text flex items-center justify-center gap-3 font-bold text-lg uppercase`
             }
           >
@@ -29,7 +29,7 @@ const Sidebar = () => {
             to="/login"
             className={({ isActive }) =>
               isActive
-                ? `text-[#ff5900] w-full rounded-lg border-b-2 border-b-[#ff5900] flex items-center justify-center gap-3 font-bold text-xl uppercase`
+                ? `w-full rounded-lg border border-[#ff5900] bg-[#ff5900] text-white flex items-center justify-center gap-3 font-bold text-xl uppercase`
                 : `text-black nav-text flex items-center justify-center gap-3 font-bold text-lg uppercase`
             }
           >
@@ -41,7 +41,7 @@ const Sidebar = () => {
             to="/register"
             className={({ isActive }) =>
               isActive
-                ? `text-[#ff5900] w-full rounded-lg border-b-2 border-b-[#ff5900] flex items-center justify-center gap-3 font-bold text-xl uppercase`
+                ? `w-full rounded-lg border border-[#ff5900] bg-[#ff5900] text-white flex items-center justify-center gap-3 font-bold text-xl uppercase`
                 : `text-black nav-text flex items-center justify-center gap-3 font-bold text-lg uppercase`
             }
           >
@@ -53,7 +53,7 @@ const Sidebar = () => {
             to="/dashboard"
             className={({ isActive }) =>
               isActive
-                ? `text-[#ff5900] w-full rounded-lg border-b-2 border-b-[#ff5900] flex items-center justify-center gap-3 font-bold text-xl uppercase`
+                ? `w-full rounded-lg border border-[#ff5900] bg-[#ff5900] text-white flex items-center justify-center gap-3 font-bold text-xl uppercase`
                 : `text-black nav-text flex items-center justify-center gap-3 font-bold text-lg uppercase`
             }
           >
