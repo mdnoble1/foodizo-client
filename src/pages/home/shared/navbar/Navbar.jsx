@@ -1,6 +1,6 @@
 import { FiMenu } from "react-icons/fi";
 import { NavLink } from "react-router-dom";
-import logo from "../../../../assets/logo/foodizoLogo1.png"
+import logo from "../../../../assets/logo/foodizoLogo1.png";
 
 const Navbar = () => {
   return (
