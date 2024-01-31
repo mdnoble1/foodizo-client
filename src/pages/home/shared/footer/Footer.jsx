@@ -1,4 +1,4 @@
-import logo from "../../../../assets/logo/foodizoLogo2.png";
+import logo from "../../../../assets/logo/foodizoLogo3.png";
 import { NavLink } from "react-router-dom";
 import { FaFacebook, FaInstagramSquare, FaTwitterSquare } from "react-icons/fa";
 
@@ -8,7 +8,9 @@ const Footer = () => {
       <div className="grid grid-cols-1 md:grid-cols-3 items-center bg-white lg:px-32">
         {/* part 1  */}
         <div className="text-white text-left lg:py-16 ml-6 lg:ml-0">
-          <img className="w-36 lg:w-52 mb-4 lg:mb-8" src={logo} alt="logo" />
+          <NavLink to="/">
+            <img className="w-36 lg:w-52 mb-4 lg:mb-8" src={logo} alt="logo" />
+          </NavLink>
           <div className="font-medium lg:text-xl text-black">
             <p>Foodizo Restaurant Society, PO 234</p>
             <p>+00 123456789</p>

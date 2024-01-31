@@ -4,10 +4,10 @@ import logo from "../../../../assets/logo/foodizoLogo1.png";
 
 const Navbar = () => {
   return (
-    <div className="max-w-screen-2xl bg-black navbar flex items-center justify-between px-4 lg:px-16 py-2 lg:py-6 fixed z-10 bg-opacity-60">
-      <div>
+    <div className="max-w-screen-2xl bg-black navbar flex items-center justify-between px-4 lg:px-16 py-2 lg:py-6 lg:fixed z-10 lg:bg-opacity-70">
+      <NavLink to="/">
         <img className="w-36 lg:w-52" src={logo} alt="logo" />
-      </div>
+      </NavLink>
       <div className="lg:hidden">
         <label
           htmlFor="my-drawer-3"

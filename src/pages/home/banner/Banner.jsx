@@ -9,7 +9,7 @@ import image6 from "../../../assets/banner/foodizoBanner5.png"
 
 const Banner = () => {
   return (
-    <Carousel className="text-center" autoPlay={true} infiniteLoop={true}>
+    <Carousel className="text-center" autoPlay={true} infiniteLoop={true} showStatus={false}>
       <div>
         <img src={image1} />
       </div>
