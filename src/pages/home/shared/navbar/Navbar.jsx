@@ -14,7 +14,7 @@ const Navbar = () => {
           aria-label="open sidebar"
           className="btn btn-square btn-ghost"
         >
-          <FiMenu className="text-2xl text-[#ff5900]"></FiMenu>
+          <FiMenu className="text-3xl text-[#ff5900]"></FiMenu>
         </label>
       </div>
       <div className="hidden lg:block">

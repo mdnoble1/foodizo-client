@@ -1,9 +1,9 @@
 import { NavLink } from "react-router-dom";
-
+import logo from "../../../../assets/logo/foodizoLogo3.png";
 
 const Sidebar = () => {
-    return (
-        <div className="drawer-side z-10">
+  return (
+    <div className="drawer-side z-10">
       <label
         htmlFor="my-drawer-3"
         aria-label="close sidebar"
@@ -11,7 +11,9 @@ const Sidebar = () => {
       ></label>
       <ul className="menu p-10 w-80 min-h-full bg-base-200">
         {/* Sidebar content here */}
-        <div className="flex justify-end"></div>
+        <NavLink to="/">
+        <img className="w-40 mx-auto mb-6" src={logo} alt="logo" />
+      </NavLink>
         <li>
           <NavLink
             to="/"
@@ -62,7 +64,7 @@ const Sidebar = () => {
         </li>
       </ul>
     </div>
-    );
+  );
 };
 
 export default Sidebar;
