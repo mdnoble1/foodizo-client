@@ -5,9 +5,17 @@ import slide2 from "../../../assets/category/slide2.jpg";
 const Category = () => {
   const [sliderRef] = useKeenSlider({
     slides: {
-      perView: 4,
+      perView: 1,
       spacing: 15,
     },
+    breakpoints: {
+        "(min-width: 400px)": {
+          slides: { perView: 2, spacing: 5 },
+        },
+        "(min-width: 1000px)": {
+          slides: { perView: 3, spacing: 10 },
+        },
+      },
   });
 
   return (
