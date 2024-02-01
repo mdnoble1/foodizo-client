@@ -3,12 +3,14 @@ import "keen-slider/keen-slider.min.css";
 import slide2 from "../../../assets/category/slide2.jpg";
 
 const Category = () => {
-  const [sliderRef] = useKeenSlider({
-    slides: {
-      perView: 1,
-      spacing: 15,
-    },
-    breakpoints: {
+  const [sliderRef] = useKeenSlider(
+    {
+      loop: true,
+      slides: {
+        perView: 1,
+        spacing: 15,
+      },
+      breakpoints: {
         "(min-width: 400px)": {
           slides: { perView: 2, spacing: 5 },
         },
@@ -16,7 +18,39 @@ const Category = () => {
           slides: { perView: 3, spacing: 10 },
         },
       },
-  });
+    },
+
+    [
+      (slider) => {
+        let timeout;
+        let mouseOver = false;
+        function clearNextTimeout() {
+          clearTimeout(timeout);
+        }
+        function nextTimeout() {
+          clearTimeout(timeout);
+          if (mouseOver) return;
+          timeout = setTimeout(() => {
+            slider.next();
+          }, 2000);
+        }
+        slider.on("created", () => {
+          slider.container.addEventListener("mouseover", () => {
+            mouseOver = true;
+            clearNextTimeout();
+          });
+          slider.container.addEventListener("mouseout", () => {
+            mouseOver = false;
+            nextTimeout();
+          });
+          nextTimeout();
+        });
+        slider.on("dragStarted", clearNextTimeout);
+        slider.on("animationEnded", nextTimeout);
+        slider.on("updated", nextTimeout);
+      },
+    ]
+  );
 
   return (
     <section className="w-11/12 mx-auto border border-red-600">
