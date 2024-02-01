@@ -1,21 +1,26 @@
 import { useKeenSlider } from "keen-slider/react";
 import "keen-slider/keen-slider.min.css";
-import slide2 from "../../../assets/category/slide2.jpg";
+import slide1 from "../../../assets/category/burger.png";
+import slide2 from "../../../assets/category/pizza.png";
+import slide3 from "../../../assets/category/soup.png";
+import slide4 from "../../../assets/category/salad.png";
+import slide5 from "../../../assets/category/dessert.png";
+import slide6 from "../../../assets/category/juice.png";
 
 const Category = () => {
   const [sliderRef] = useKeenSlider(
     {
       loop: true,
       slides: {
-        perView: 1,
-        spacing: 15,
+        perView: 2,
+        spacing: 20,
       },
       breakpoints: {
-        "(min-width: 400px)": {
-          slides: { perView: 2, spacing: 5 },
+        "(min-width: 426px)": {
+          slides: { perView: 3, spacing: 20 },
         },
         "(min-width: 1000px)": {
-          slides: { perView: 3, spacing: 10 },
+          slides: { perView: 4, spacing: 20 },
         },
       },
     },
@@ -53,25 +58,55 @@ const Category = () => {
   );
 
   return (
-    <section className="w-11/12 mx-auto border border-red-600">
-      <div ref={sliderRef} className="keen-slider">
-        <div className="keen-slider__slide number-slide1">
-          <img className="mx-auto" src={slide2} alt="category" />
+    <section className="w-11/12 mx-auto">
+      <div ref={sliderRef} className="keen-slider py-6">
+        <div className="keen-slider__slide number-slide1 relative h-min">
+          <img className="mx-auto rounded-3xl" src={slide1} alt="category" />
+          <div className="bg-black w-full h-full flex items-center justify-center rounded-3xl absolute bottom-0 bg-opacity-50">
+            <h2 className="font-bold text-2xl md:text-3xl lg:text-4xl text-white uppercase">
+              Burgers
+            </h2>
+          </div>
         </div>
-        <div className="keen-slider__slide number-slide2">
-          <img className="mx-auto" src={slide2} alt="category" />
+        <div className="keen-slider__slide number-slide2 relative h-min">
+          <img className="mx-auto rounded-3xl" src={slide2} alt="category" />
+          <div className="bg-black w-full h-full flex items-center justify-center rounded-3xl absolute bottom-0 bg-opacity-50">
+            <h2 className="font-bold text-2xl md:text-3xl lg:text-4xl text-white uppercase">
+              Pizzas
+            </h2>
+          </div>
         </div>
-        <div className="keen-slider__slide number-slide3">
-          <img className="mx-auto" src={slide2} alt="category" />
+        <div className="keen-slider__slide number-slide3 relative h-min">
+          <img className="mx-auto rounded-3xl" src={slide3} alt="category" />
+          <div className="bg-black w-full h-full flex items-center justify-center rounded-3xl absolute bottom-0 bg-opacity-50">
+            <h2 className="font-bold text-2xl md:text-3xl lg:text-4xl text-white uppercase">
+              Soups
+            </h2>
+          </div>
         </div>
-        <div className="keen-slider__slide number-slide4">
-          <img className="mx-auto" src={slide2} alt="category" />
+        <div className="keen-slider__slide number-slide4 relative h-min">
+          <img className="mx-auto rounded-3xl" src={slide4} alt="category" />
+          <div className="bg-black w-full h-full flex items-center justify-center rounded-3xl absolute bottom-0 bg-opacity-50">
+            <h2 className="font-bold text-2xl md:text-3xl lg:text-4xl text-white uppercase">
+              Salads
+            </h2>
+          </div>
         </div>
-        <div className="keen-slider__slide number-slide5">
-          <img className="mx-auto" src={slide2} alt="category" />
+        <div className="keen-slider__slide number-slide5 relative h-min">
+          <img className="mx-auto rounded-3xl" src={slide5} alt="category" />
+          <div className="bg-black w-full h-full flex items-center justify-center rounded-3xl absolute bottom-0 bg-opacity-50">
+            <h2 className="font-bold text-2xl md:text-3xl lg:text-4xl text-white uppercase">
+              Desserts
+            </h2>
+          </div>
         </div>
-        <div className="keen-slider__slide number-slide6">
-          <img className="mx-auto" src={slide2} alt="category" />
+        <div className="keen-slider__slide number-slide6 relative h-min">
+          <img className="mx-auto rounded-3xl" src={slide6} alt="category" />
+          <div className="bg-black w-full h-full flex items-center justify-center rounded-3xl absolute bottom-0 bg-opacity-50">
+            <h2 className="font-bold text-2xl md:text-3xl lg:text-4xl text-white uppercase">
+              Juices
+            </h2>
+          </div>
         </div>
       </div>
     </section>
