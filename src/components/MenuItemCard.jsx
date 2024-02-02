@@ -13,12 +13,16 @@ const MenuItemCard = ({ item }) => {
       />
       <div className="">
         <div className="flex items-start justify-between mb-2">
-          <h2 className="font-semibold lg:text-lg text-black uppercase">{name}</h2>
+          <h2 className="font-semibold lg:text-lg text-black uppercase">
+            {name}
+          </h2>
           <p className="font-semibold lg:text-lg uppercase text-[#ff5900] flex">
             <span className="text-black">$</span> {price}
           </p>
         </div>
-        <p className="font-medium text-sm lg:text-base text-gray-500 text-justify">{recipe}</p>
+        <p className="font-medium text-sm lg:text-base text-gray-500 text-justify">
+          {recipe}
+        </p>
       </div>
     </section>
   );
