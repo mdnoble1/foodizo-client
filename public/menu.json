@@ -3,80 +3,90 @@
         "id": "1",
         "name": "Classic Burger",
         "recipe": "Juicy beef patty with lettuce, tomato, and pickles, served on a sesame seed bun.",
-        "image": "https://i.ibb.co/8zkWvqL/burger1.png",
+        "image": "https://i.ibb.co/GQxFWY6/burger1.png",
         "category": "burger",
-        "price": 8.99
+        "price": 8.99,
+        "rating": 4.5
     },
     {
         "id": "2",
-        "name": "Mediterranean Chicken Burger",
-        "recipe": "Grilled chicken patty seasoned with Mediterranean herbs and spices, topped with feta cheese, tzatziki sauce, lettuce, and tomato, served on a ciabatta bun.",
-        "image": "https://i.ibb.co/Nj00qbC/burger2.png",
+        "name": "Chicken Burger",
+        "recipe": "Grilled chicken patty seasoned with Mediterranean herbs and spices, served on a ciabatta bun.",
+        "image": "https://i.ibb.co/WWJPYY1/burger2.png",
         "category": "burger",
-        "price": 11.99
+        "price": 11.99,
+        "rating": 4.2
     },
     {
         "id": "3",
         "name": "Veggie Burger",
         "recipe": "Plant-based patty with lettuce, tomato, onion, and vegan mayo, served on a whole wheat bun.",
-        "image": "https://i.ibb.co/XFSptcH/burger3.png",
+        "image": "https://i.ibb.co/yV3thRF/burger3.png",
         "category": "burger",
-        "price": 9.99
+        "price": 9.99,
+        "rating": 5
     },
     {
         "id": "4",
-        "name": "BBQ Ranch Burger",
+        "name": "BBQ Burger",
         "recipe": "Beef patty smothered in barbecue sauce, topped with crispy onion straws, ranch dressing, and lettuce.",
-        "image": "https://i.ibb.co/8zkWvqL/burger1.png",
+        "image": "https://i.ibb.co/GQxFWY6/burger1.png",
         "category": "burger",
-        "price": 11.50
+        "price": 11.50,
+        "rating": 5
     },
     {
         "id": "5",
-        "name": "Spicy Chicken Burger",
+        "name": "Spicy Burger",
         "recipe": "Grilled chicken breast with spicy mayo, jalapenos, lettuce, and pepper jack cheese.",
-        "image": "https://i.ibb.co/Nj00qbC/burger2.png",
+        "image": "https://i.ibb.co/WWJPYY1/burger2.png",
         "category": "burger",
-        "price": 9.99
+        "price": 9.99,
+        "rating": 4.5
     },
     {
         "id": "6",
-        "name": "Mushroom Swiss Burger",
+        "name": "Mushroom Burger",
         "recipe": "Beef patty topped with sautéed mushrooms, melted Swiss cheese, and Dijon mustard.",
-        "image": "https://i.ibb.co/XFSptcH/burger3.png",
+        "image": "https://i.ibb.co/yV3thRF/burger3.png",
         "category": "burger",
-        "price": 10.50
+        "price": 10.50,
+        "rating": 4.8
     },
     {
         "id": "7",
-        "name": "Avocado Turkey Burger",
+        "name": "Turkey Burger",
         "recipe": "Grilled turkey patty with sliced avocado, lettuce, tomato, and cilantro lime mayo.",
-        "image": "https://i.ibb.co/8zkWvqL/burger1.png",
+        "image": "https://i.ibb.co/GQxFWY6/burger1.png",
         "category": "burger",
-        "price": 10.99
+        "price": 10.99,
+        "rating": 4.9
     },
     {
         "id": "8",
         "name": "Double Cheeseburger",
         "recipe": "Two beef patties with American cheese, lettuce, tomato, and special sauce on a sesame seed bun.",
-        "image": "https://i.ibb.co/Nj00qbC/burger2.png",
+        "image": "https://i.ibb.co/WWJPYY1/burger2.png",
         "category": "burger",
-        "price": 12.99
+        "price": 12.99,
+        "rating": 5
     },
     {
         "id": "9",
-        "name": "Teriyaki Pineapple Burger",
+        "name": "Pineapple Burger",
         "recipe": "Grilled beef patty with teriyaki glaze, topped with grilled pineapple, lettuce, and mayo.",
-        "image": "https://i.ibb.co/XFSptcH/burger3.png",
+        "image": "https://i.ibb.co/yV3thRF/burger3.png",
         "category": "burger",
-        "price": 11.75
+        "price": 11.75,
+        "rating": 4.5
     },
     {
         "id": "10",
-        "name": "Buffalo Chicken Burger",
+        "name": "Buffalo Burger",
         "recipe": "Crispy chicken patty tossed in buffalo sauce, with blue cheese dressing, lettuce, and tomato.",
-        "image": "https://i.ibb.co/8zkWvqL/burger1.png",
+        "image": "https://i.ibb.co/GQxFWY6/burger1.png",
         "category": "burger",
-        "price": 10.99
+        "price": 10.99,
+        "rating": 4.9
     }
 ]

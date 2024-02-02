@@ -20,7 +20,7 @@ const PopularMenu = () => {
         title={"Popular Palates"}
         subtitle={"Savor-Every-Bite"}
       ></SectionTitle>
-      <div>
+      <div className="w-11/12 mx-auto my-10 lg:my-16 grid md:grid-cols-2">
         {popularItems?.map((item) => (
           <MenuItemCard key={item.id} item={item}></MenuItemCard>
         ))}
