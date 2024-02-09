@@ -9,7 +9,7 @@ const PopularMenu = () => {
     fetch("menu.json")
       .then((res) => res.json())
       .then((data) => {
-        const popular = data.filter((item) => item.category == "burger");
+        const popular = data.filter((item) => item.category == "popular");
         setPopularItems(popular);
       });
   }, []);

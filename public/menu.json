@@ -88,5 +88,635 @@
         "category": "burger",
         "price": 10.99,
         "rating": 4.9
+    },
+    {
+        "id": "11",
+        "name": "Margherita Pizza",
+        "recipe": "Classic pizza with tomato sauce, fresh mozzarella, basil, and a drizzle of olive oil.",
+        "image": "https://i.ibb.co/qmmhXm9/pizza1.png",
+        "category": "pizza",
+        "price": 12.99,
+        "rating": 4.5
+    },
+    {
+        "id": "12",
+        "name": "Pepperoni Pizza",
+        "recipe": "Traditional pizza topped with tomato sauce, mozzarella cheese, and pepperoni slices.",
+        "image": "https://i.ibb.co/1n5Cqfh/pizza2.png",
+        "category": "pizza",
+        "price": 14.50,
+        "rating": 4.0
+    },
+    {
+        "id": "13",
+        "name": "Vegetarian Pizza",
+        "recipe": "Loaded with assorted vegetables, including bell peppers, mushrooms, olives, and onions.",
+        "image": "https://i.ibb.co/Y222g6c/pizza3.png",
+        "category": "pizza",
+        "price": 13.99,
+        "rating": 5
+    },
+    {
+        "id": "14",
+        "name": "BBQ Pizza",
+        "recipe": "Grilled chicken, red onions, and barbecue sauce on a pizza topped with mozzarella cheese.",
+        "image": "https://i.ibb.co/qmmhXm9/pizza1.png",
+        "category": "pizza",
+        "price": 15.25,
+        "rating": 4.8
+    },
+    {
+        "id": "15",
+        "name": "Hawaiian Pizza",
+        "recipe": "Classic combination of ham, pineapple, and mozzarella cheese on a tomato sauce base.",
+        "image": "https://i.ibb.co/1n5Cqfh/pizza2.png",
+        "category": "pizza",
+        "price": 13.50,
+        "rating": 5
+    },
+    {
+        "id": "16",
+        "name": "Mushroom Pizza",
+        "recipe": "Creamy truffle oil, mushrooms, and mozzarella cheese on a thin crust.",
+        "image": "https://i.ibb.co/Y222g6c/pizza3.png",
+        "category": "pizza",
+        "price": 16.99,
+        "rating": 4.8
+    },
+    {
+        "id": "17",
+        "name": "Spinach Pizza",
+        "recipe": "Fresh spinach, feta cheese, tomatoes, and olives on a garlic-infused crust.",
+        "image": "https://i.ibb.co/qmmhXm9/pizza1.png",
+        "category": "pizza",
+        "price": 14.75,
+        "rating": 4.5
+    },
+    {
+        "id": "18",
+        "name": "Chicken Pizza",
+        "recipe": "Chicken, ranch dressing, and red onions on a pizza with mozzarella cheese.",
+        "image": "https://i.ibb.co/1n5Cqfh/pizza2.png",
+        "category": "pizza",
+        "price": 15.99,
+        "rating": 5
+    },
+    {
+        "id": "19",
+        "name": "Tomato Pizza",
+        "recipe": "Basil pesto, sun-dried tomatoes, mozzarella, and Parmesan cheese on a thin-crust pizza.",
+        "image": "https://i.ibb.co/Y222g6c/pizza3.png",
+        "category": "pizza",
+        "price": 16.50,
+        "rating": 4.9
+    },
+    {
+        "id": "20",
+        "name": "Barbecue Pizza",
+        "recipe": "Assorted grilled vegetables with barbecue sauce and mozzarella on a pizza crust.",
+        "image": "https://i.ibb.co/qmmhXm9/pizza1.png",
+        "category": "pizza",
+        "price": 14.99,
+        "rating": 4.8
+    },
+    {
+        "id": "21",
+        "name": "Tomato Soup",
+        "recipe": "Classic tomato soup with fresh basil, garlic, and a touch of cream.",
+        "image": "https://i.ibb.co/BPNYMmn/soup1.png",
+        "category": "soup",
+        "price": 7.99,
+        "rating": 4.5
+    },
+    {
+        "id": "22",
+        "name": "Noodle Soup",
+        "recipe": "Hearty chicken broth with tender noodles, carrots, celery, and shredded chicken.",
+        "image": "https://i.ibb.co/GFT2Gvb/soup2.png",
+        "category": "soup",
+        "price": 8.50,
+        "rating": 4.8
+    },
+    {
+        "id": "23",
+        "name": "Minestrone Soup",
+        "recipe": "Italian vegetable soup with tomatoes, beans, pasta, and a blend of herbs.",
+        "image": "https://i.ibb.co/cxTJ9SV/soup3.png",
+        "category": "soup",
+        "price": 9.25,
+        "rating": 5
+    },
+    {
+        "id": "24",
+        "name": "Lentil Soup",
+        "recipe": "Nutritious lentil soup with carrots, onions, celery, and a hint of cumin.",
+        "image": "https://i.ibb.co/BPNYMmn/soup1.png",
+        "category": "soup",
+        "price": 7.99,
+        "rating": 4.5
+    },
+    {
+        "id": "25",
+        "name": "Broccoli Soup",
+        "recipe": "Velvety smooth broccoli soup with a creamy blend of cheddar cheese.",
+        "image": "https://i.ibb.co/GFT2Gvb/soup2.png",
+        "category": "soup",
+        "price": 8.99,
+        "rating": 4.5
+    },
+    {
+        "id": "26",
+        "name": "Clam Chowder",
+        "recipe": "New England-style clam chowder with tender clams, potatoes, and smoky bacon.",
+        "image": "https://i.ibb.co/cxTJ9SV/soup3.png",
+        "category": "soup",
+        "price": 10.50,
+        "rating": 5
+    },
+    {
+        "id": "27",
+        "name": "Thai Yum Soup",
+        "recipe": "Authentic Thai soup with a spicy and tangy broth, shrimp, mushrooms, and lemongrass.",
+        "image": "https://i.ibb.co/BPNYMmn/soup1.png",
+        "category": "soup",
+        "price": 9.99,
+        "rating": 4.8
+    },
+    {
+        "id": "28",
+        "name": "Butternut Soup",
+        "recipe": "Smooth butternut squash soup with a hint of nutmeg and cinnamon.",
+        "image": "https://i.ibb.co/GFT2Gvb/soup2.png",
+        "category": "soup",
+        "price": 8.75,
+        "rating": 4.8
+    },
+    {
+        "id": "29",
+        "name": "Vegetarian Chili",
+        "recipe": "Hearty chili with a mix of beans, tomatoes, vegetables, and a blend of spices.",
+        "image": "https://i.ibb.co/cxTJ9SV/soup3.png",
+        "category": "soup",
+        "price": 9.50,
+        "rating": 5
+    },
+    {
+        "id": "30",
+        "name": "French Soup",
+        "recipe": "Rich and flavorful French onion soup topped with melted Gruyère cheese.",
+        "image": "https://i.ibb.co/BPNYMmn/soup1.png",
+        "category": "soup",
+        "price": 10.99,
+        "rating": 4.5
+    },
+    {
+        "id": "31",
+        "name": "Caesar Salad",
+        "recipe": "Crisp romaine lettuce tossed with Caesar dressing, croutons, and Parmesan cheese.",
+        "image": "https://i.ibb.co/T8VQxYf/salad1.png",
+        "category": "salad",
+        "price": 9.99,
+        "rating": 4.5
+    },
+    {
+        "id": "32",
+        "name": "Greek Salad",
+        "recipe": "Fresh mixed greens with tomatoes, cucumbers, olives, feta cheese, and Greek dressing.",
+        "image": "https://i.ibb.co/5h7M33j/salad2.png",
+        "category": "salad",
+        "price": 10.50,
+        "rating": 5
+    },
+    {
+        "id": "33",
+        "name": "Caprese Salad",
+        "recipe": "Tomatoes, fresh mozzarella, and basil drizzled with balsamic glaze and olive oil.",
+        "image": "https://i.ibb.co/PxGfKpS/salad3.png",
+        "category": "salad",
+        "price": 11.25,
+        "rating": 4.5
+    },
+    {
+        "id": "34",
+        "name": "Cobb Salad",
+        "recipe": "Mixed greens topped with grilled chicken, bacon, avocado, tomatoes, and blue cheese.",
+        "image": "https://i.ibb.co/T8VQxYf/salad1.png",
+        "category": "salad",
+        "price": 12.99,
+        "rating": 5
+    },
+    {
+        "id": "35",
+        "name": "Chicken Salad",
+        "recipe": "Grilled sesame chicken with mixed greens, mandarin oranges, almonds, and sesame dressing.",
+        "image": "https://i.ibb.co/5h7M33j/salad2.png",
+        "category": "salad",
+        "price": 11.99,
+        "rating": 5
+    },
+    {
+        "id": "36",
+        "name": "Avocado Salad",
+        "recipe": "Quinoa salad with mango, avocado, cherry tomatoes, red onion, and cilantro-lime dressing.",
+        "image": "https://i.ibb.co/PxGfKpS/salad3.png",
+        "category": "salad",
+        "price": 13.50,
+        "rating": 4.8
+    },
+    {
+        "id": "37",
+        "name": "Strawberry Salad",
+        "recipe": "Fresh spinach with sliced strawberries, feta cheese, and balsamic vinaigrette.",
+        "image": "https://i.ibb.co/T8VQxYf/salad1.png",
+        "category": "salad",
+        "price": 10.99,
+        "rating": 5
+    },
+    {
+        "id": "38",
+        "name": "Vegetable Salad",
+        "recipe": "Assorted grilled vegetables with mixed greens and a balsamic glaze.",
+        "image": "https://i.ibb.co/5h7M33j/salad2.png",
+        "category": "salad",
+        "price": 11.75,
+        "rating": 4.8
+    },
+    {
+        "id": "39",
+        "name": "Quinoa Salad",
+        "recipe": "Superfood salad with quinoa, kale, cherry tomatoes, and lemon-tahini dressing.",
+        "image": "https://i.ibb.co/PxGfKpS/salad3.png",
+        "category": "salad",
+        "price": 12.50,
+        "rating": 4.5
+    },
+    {
+        "id": "40",
+        "name": "Shrimp Salad",
+        "recipe": "Shrimp Caesar salad with romaine lettuce, croutons, Parmesan cheese, and Caesar dressing.",
+        "image": "https://i.ibb.co/T8VQxYf/salad1.png",
+        "category": "salad",
+        "price": 14.99,
+        "rating": 5
+    },
+    {
+        "id": "41",
+        "name": "Lava Cake",
+        "recipe": "Decadent chocolate cake with a gooey molten center, served with a scoop of vanilla ice cream.",
+        "image": "https://i.ibb.co/2cC23G9/dessert1.png",
+        "category": "dessert",
+        "price": 8.99,
+        "rating": 4.8
+    },
+    {
+        "id": "42",
+        "name": "Tiramisu",
+        "recipe": "Classic Italian dessert with layers of coffee-soaked ladyfingers and mascarpone cream, dusted with cocoa powder.",
+        "image": "https://i.ibb.co/pW60MGf/dessert2.png",
+        "category": "dessert",
+        "price": 9.50,
+        "rating": 5
+    },
+    {
+        "id": "43",
+        "name": "Cheesecake",
+        "recipe": "Creamy and rich cheesecake on a graham cracker crust, topped with your choice of fruit compote.",
+        "image": "https://i.ibb.co/xH2KjhK/dessert3.png",
+        "category": "dessert",
+        "price": 10.99,
+        "rating": 4.8
+    },
+    {
+        "id": "44",
+        "name": "Strawberry Shortcake",
+        "recipe": "Layers of sponge cake, fresh strawberries, and whipped cream for a delightful summer treat.",
+        "image": "https://i.ibb.co/2cC23G9/dessert1.png",
+        "category": "dessert",
+        "price": 8.75,
+        "rating": 4.5
+    },
+    {
+        "id": "45",
+        "name": "Caramel Brownie",
+        "recipe": "Fudgy brownie with a gooey caramel center, served warm and topped with a scoop of caramel ice cream.",
+        "image": "https://i.ibb.co/pW60MGf/dessert2.png",
+        "category": "dessert",
+        "price": 9.99,
+        "rating": 5
+    },
+    {
+        "id": "46",
+        "name": "Apple Pie",
+        "recipe": "Classic American apple pie with a flaky crust, cinnamon-spiced apples, and a scoop of vanilla ice cream.",
+        "image": "https://i.ibb.co/xH2KjhK/dessert3.png",
+        "category": "dessert",
+        "price": 10.50,
+        "rating": 4.5
+    },
+    {
+        "id": "47",
+        "name": "Velvet Cupcakes",
+        "recipe": "Moist and fluffy red velvet cupcakes topped with cream cheese frosting and a sprinkle of red velvet crumbs.",
+        "image": "https://i.ibb.co/2cC23G9/dessert1.png",
+        "category": "dessert",
+        "price": 8.99,
+        "rating": 5
+    },
+    {
+        "id": "48",
+        "name": "Chocolate Mousse",
+        "recipe": "Silky smooth chocolate mousse topped with whipped cream and chocolate shavings.",
+        "image": "https://i.ibb.co/pW60MGf/dessert2.png",
+        "category": "dessert",
+        "price": 9.25,
+        "rating": 4.8
+    },
+    {
+        "id": "49",
+        "name": "Key Lime Pie",
+        "recipe": "Tangy key lime pie with a graham cracker crust and a dollop of whipped cream.",
+        "image": "https://i.ibb.co/xH2KjhK/dessert3.png",
+        "category": "dessert",
+        "price": 9.50,
+        "rating": 4.3
+    },
+    {
+        "id": "50",
+        "name": "Chocolate Cookie",
+        "recipe": "Warm chocolate chip cookie topped with a scoop of vanilla ice cream, chocolate sauce, and whipped cream.",
+        "image": "https://i.ibb.co/2cC23G9/dessert1.png",
+        "category": "dessert",
+        "price": 11.99,
+        "rating": 5
+    },
+    {
+        "id": "51",
+        "name": "Orange Burst",
+        "recipe": "Freshly squeezed orange juice with a hint of zest for a refreshing citrus experience.",
+        "image": "https://i.ibb.co/YDqScPp/juice1.png",
+        "category": "juice",
+        "price": 4.99,
+        "rating": 5
+    },
+    {
+        "id": "52",
+        "name": "Tropical Paradise",
+        "recipe": "A blend of pineapple, mango, and coconut water to transport you to a tropical paradise.",
+        "image": "https://i.ibb.co/LkpFW3F/juice2.png",
+        "category": "juice",
+        "price": 5.50,
+        "rating": 4.8
+    },
+    {
+        "id": "53",
+        "name": "Green Elixir",
+        "recipe": "A detoxifying mix of kale, cucumber, apple, and lemon for a green and healthy kick.",
+        "image": "https://i.ibb.co/DQS27PX/juice3.png",
+        "category": "juice",
+        "price": 6.25,
+        "rating": 4.5
+    },
+    {
+        "id": "54",
+        "name": "Berry Bliss",
+        "recipe": "A berrylicious combination of strawberries, blueberries, and raspberries for a sweet and tart flavor.",
+        "image": "https://i.ibb.co/YDqScPp/juice1.png",
+        "category": "juice",
+        "price": 5.99,
+        "rating": 4.8
+    },
+    {
+        "id": "55",
+        "name": "Watermelon Wave",
+        "recipe": "Cool and hydrating watermelon juice perfect for a summer day.",
+        "image": "https://i.ibb.co/LkpFW3F/juice2.png",
+        "category": "juice",
+        "price": 4.75,
+        "rating": 5
+    },
+    {
+        "id": "56",
+        "name": "Cucumber Refresher",
+        "recipe": "Crisp cucumber and fresh mint blended together for a revitalizing and cooling drink.",
+        "image": "https://i.ibb.co/DQS27PX/juice3.png",
+        "category": "juice",
+        "price": 5.99,
+        "rating": 4.5
+    },
+    {
+        "id": "57",
+        "name": "Carrot Zing",
+        "recipe": "Carrot juice with a zing of ginger for a nutritious and invigorating beverage.",
+        "image": "https://i.ibb.co/YDqScPp/juice1.png",
+        "category": "juice",
+        "price": 6.50,
+        "rating": 5
+    },
+    {
+        "id": "58",
+        "name": "Pineapple Passion",
+        "recipe": "Sweet and tropical pineapple juice with a hint of passion fruit for a delightful treat.",
+        "image": "https://i.ibb.co/LkpFW3F/juice2.png",
+        "category": "juice",
+        "price": 5.75,
+        "rating": 4.8
+    },
+    {
+        "id": "59",
+        "name": "Beet Berry",
+        "recipe": "A nutritious blend of beets, mixed berries, and apple for a refreshing and antioxidant-rich juice.",
+        "image": "https://i.ibb.co/DQS27PX/juice3.png",
+        "category": "juice",
+        "price": 6.99,
+        "rating": 5
+    },
+    {
+        "id": "60",
+        "name": "Mango Sunrise",
+        "recipe": "Sun-kissed mango juice that brings a taste of the tropics to your glass.",
+        "image": "https://i.ibb.co/YDqScPp/juice1.png",
+        "category": "juice",
+        "price": 5.50,
+        "rating": 4.5
+    },
+    {
+        "id": "61",
+        "name": "Classic Cheeseburger",
+        "recipe": "Juicy beef patty topped with melted cheddar cheese, lettuce, tomato, onion, and pickles, served on a toasted bun.",
+        "image": "https://i.ibb.co/GQxFWY6/burger1.png",
+        "category": "popular",
+        "price": 11.99,
+        "rating": 5
+    },
+    {
+        "id": "62",
+        "name": "Chicken Pasta",
+        "recipe": "Fettuccine pasta tossed in a creamy Alfredo sauce with grilled chicken breast, garlic, and Parmesan cheese.",
+        "image": "https://i.ibb.co/qmmhXm9/pizza1.png",
+        "category": "popular",
+        "price": 14.50,
+        "rating": 4.8
+    },
+    {
+        "id": "63",
+        "name": "Margherita Pizza",
+        "recipe": "Classic pizza with tomato sauce, fresh mozzarella, basil, and a drizzle of olive oil.",
+        "image": "https://i.ibb.co/Y222g6c/pizza3.png",
+        "category": "popular",
+        "price": 12.99,
+        "rating": 5
+    },
+    {
+        "id": "64",
+        "name": "Grilled Salmon",
+        "recipe": "Fresh Atlantic salmon fillet grilled to perfection and served with steamed vegetables and lemon butter sauce.",
+        "image": "https://i.ibb.co/GQxFWY6/burger1.png",
+        "category": "popular",
+        "price": 16.99,
+        "rating": 4.8
+    },
+    {
+        "id": "65",
+        "name": "Caesar Salad",
+        "recipe": "Crisp romaine lettuce tossed with Caesar dressing, croutons, and Parmesan cheese.",
+        "image": "https://i.ibb.co/PxGfKpS/salad3.png",
+        "category": "popular",
+        "price": 9.99,
+        "rating": 4.5
+    },
+    {
+        "id": "66",
+        "name": "Veggie Burger",
+        "recipe": "Plant-based patty with lettuce, tomato, onion, and vegan mayo, served on a whole wheat bun.",
+        "image": "https://i.ibb.co/yV3thRF/burger3.png",
+        "category": "burger",
+        "price": 9.99,
+        "rating": 5
+    },
+    {
+        "id": "67",
+        "name": "Chocolate Fondue",
+        "recipe": "Melted chocolate served with an assortment of fruits, marshmallows, and cake for dipping.",
+        "image": "https://i.ibb.co/2cC23G9/dessert1.png",
+        "category": "popular",
+        "price": 12.75,
+        "rating": 4.8
+    },
+    {
+        "id": "68",
+        "name": "BBQ Ribs",
+        "recipe": "Slow-cooked pork ribs glazed with barbecue sauce, served with coleslaw and fries.",
+        "image": "https://i.ibb.co/GQxFWY6/burger1.png",
+        "category": "popular",
+        "price": 17.50,
+        "rating": 4.9
+    },
+    {
+        "id": "69",
+        "name": "Watermelon Wave",
+        "recipe": "Cool and hydrating watermelon juice perfect for a summer day.",
+        "image": "https://i.ibb.co/LkpFW3F/juice2.png",
+        "category": "juice",
+        "price": 4.75,
+        "rating": 5
+    },
+    {
+        "id": "70",
+        "name": "Banana Split",
+        "recipe": "A classic dessert featuring banana, vanilla, chocolate, and strawberry ice cream topped with whipped cream, nuts, and cherries.",
+        "image": "https://i.ibb.co/YDqScPp/juice1.png",
+        "category": "popular",
+        "price": 9.25,
+        "rating": 4.8
+    },
+    {
+        "id": "71",
+        "name": "Veggie Burger",
+        "recipe": "A delicious plant-based patty made from a blend of vegetables and grains, served on a whole wheat bun with lettuce, tomato, and avocado.",
+        "image": "https://i.ibb.co/yV3thRF/burger3.png",
+        "category": "offered",
+        "price": 10.99,
+        "rating": 4.2
+    },
+    {
+        "id": "72",
+        "name": "Pesto Pasta",
+        "recipe": "Penne pasta tossed in a flavorful basil pesto sauce with cherry tomatoes, spinach, and Parmesan cheese.",
+        "image": "https://i.ibb.co/qmmhXm9/pizza1.png",
+        "category": "offered",
+        "price": 12.50,
+        "rating": 4.5
+    },
+    {
+        "id": "73",
+        "name": "Mediterranean Wrap",
+        "recipe": "A wrap filled with hummus, falafel, cucumber, tomato, red onion, feta cheese, and tzatziki sauce.",
+        "image": "https://i.ibb.co/5h7M33j/salad2.png",
+        "category": "offered",
+        "price": 11.75,
+        "rating": 4.2
+    },
+    {
+        "id": "74",
+        "name": "Quinoa Salad",
+        "recipe": "A nourishing bowl of quinoa topped with mixed greens, roasted vegetables, chickpeas, avocado, and tahini dressing.",
+        "image": "https://i.ibb.co/PxGfKpS/salad3.png",
+        "category": "offered",
+        "price": 13.99,
+        "rating": 4.5
+    },
+    {
+        "id": "75",
+        "name": "Tofu Stir-Fry",
+        "recipe": "Crispy tofu stir-fried with broccoli, bell peppers, snap peas, and carrots in a savory ginger-soy sauce, served over brown rice.",
+        "image": "https://i.ibb.co/Y222g6c/pizza3.png",
+        "category": "offered",
+        "price": 14.50,
+        "rating": 4.2
+    },
+    {
+        "id": "76",
+        "name": "Fruit Smoothie",
+        "recipe": "A refreshing blend of mixed berries, banana, and spinach topped with granola, coconut flakes, and sliced fruits.",
+        "image": "https://i.ibb.co/LkpFW3F/juice2.png",
+        "category": "offered",
+        "price": 9.99,
+        "rating": 4.5
+    },
+    {
+        "id": "77",
+        "name": "Vegetable Curry",
+        "recipe": "A fragrant curry made with mixed vegetables, coconut milk, and a blend of spices, served with basmati rice.",
+        "image": "https://i.ibb.co/5h7M33j/salad2.png",
+        "category": "offered",
+        "price": 12.99,
+        "rating": 4.2
+    },
+    {
+        "id": "78",
+        "name": "Falafel Plate",
+        "recipe": "Crispy falafel served with tabbouleh salad, hummus, pita bread, and tahini sauce.",
+        "image": "https://i.ibb.co/GQxFWY6/burger1.png",
+        "category": "offered",
+        "price": 11.25,
+        "rating": 4
+    },
+    {
+        "id": "79",
+        "name": "Stuffed Peppers",
+        "recipe": "Bell peppers filled with a savory mixture of quinoa, black beans, corn, tomatoes, and spices, baked to perfection.",
+        "image": "https://i.ibb.co/WWJPYY1/burger2.png",
+        "category": "offered",
+        "price": 13.75,
+        "rating": 4.5
+    },
+    {
+        "id": "80",
+        "name": "Acai Bowl",
+        "recipe": "A refreshing blend of acai, banana, and mixed berries topped with granola, sliced fruits, and honey.",
+        "image": "https://i.ibb.co/PxGfKpS/salad3.png",
+        "category": "offered",
+        "price": 10.50,
+        "rating": 4.5
     }
 ]
