@@ -2,70 +2,70 @@
     {
         "id": 1,
         "name": "John Smith",
-        "image": "https://example.com/john-smith.jpg",
+        "image": "https://i.ibb.co/MsJdGQG/boy2.png",
         "review": "Foodizo is my go-to place for delicious meals! Their menu offers a great variety, and the food always tastes fresh and flavorful. The ambiance is cozy, and the staff is friendly and attentive. I highly recommend trying their dishes!",
         "rating": 5
     },
     {
         "id": 2,
         "name": "Emily Johnson",
-        "image": "https://example.com/emily-johnson.jpg",
+        "image": "https://i.ibb.co/MsJdGQG/boy2.png",
         "review": "Foodizo exceeded my expectations! The dishes are prepared with care and attention to detail. The atmosphere is inviting, and the service is excellent. I'll definitely be coming back for more!",
         "rating": 4.8
     },
     {
         "id": 3,
         "name": "Michael Davis",
-        "image": "https://example.com/michael-davis.jpg",
+        "image": "https://i.ibb.co/MsJdGQG/boy2.png",
         "review": "I had a wonderful dining experience at Foodizo! The food was delicious, and the presentation was beautiful. The staff was courteous and attentive. I highly recommend this restaurant!",
         "rating": 4.9
     },
     {
         "id": 4,
         "name": "Sarah Wilson",
-        "image": "https://example.com/sarah-wilson.jpg",
+        "image": "https://i.ibb.co/MsJdGQG/boy2.png",
         "review": "Foodizo offers a delightful culinary journey! Each dish is bursting with flavor, and the ingredients are fresh and high-quality. The staff is knowledgeable and friendly. I can't wait to visit again!",
         "rating": 4.7
     },
     {
         "id": 5,
         "name": "David Brown",
-        "image": "https://example.com/david-brown.jpg",
+        "image": "https://i.ibb.co/MsJdGQG/boy2.png",
         "review": "I had a fantastic time dining at Foodizo! The menu selection is excellent, catering to various tastes. The service is top-notch, and the ambiance is perfect for a cozy meal. Highly recommended!",
         "rating": 4.6
     },
     {
         "id": 6,
         "name": "Emma Thompson",
-        "image": "https://example.com/emma-thompson.jpg",
+        "image": "https://i.ibb.co/MsJdGQG/boy2.png",
         "review": "Foodizo never disappoints! Whether I'm craving something light or indulgent, there's always a perfect option on the menu. The staff is friendly and accommodating, making each visit a pleasure.",
         "rating": 4.8
     },
     {
         "id": 7,
         "name": "James Miller",
-        "image": "https://example.com/james-miller.jpg",
+        "image": "https://i.ibb.co/MsJdGQG/boy2.png",
         "review": "Foodizo is my favorite spot for a delicious meal! The flavors are always on point, and the portions are generous. The staff goes above and beyond to ensure a memorable dining experience.",
         "rating": 4.9
     },
     {
         "id": 8,
         "name": "Olivia Wilson",
-        "image": "https://example.com/olivia-wilson.jpg",
+        "image": "https://i.ibb.co/MsJdGQG/boy2.png",
         "review": "I love dining at Foodizo! The ambiance is cozy, the service is exceptional, and the food is consistently delicious. Whether it's for a special occasion or a casual meal, Foodizo is always a great choice.",
         "rating": 4.7
     },
     {
         "id": 9,
         "name": "William Taylor",
-        "image": "https://example.com/william-taylor.jpg",
+        "image": "https://i.ibb.co/MsJdGQG/boy2.png",
         "review": "Foodizo offers a wonderful dining experience! The menu is diverse, with something for everyone. The staff is attentive and friendly, making you feel right at home. I highly recommend trying their specialties!",
         "rating": 4.5
     },
     {
         "id": 10,
         "name": "Sophia Martinez",
-        "image": "https://example.com/sophia-martinez.jpg",
+        "image": "https://i.ibb.co/MsJdGQG/boy2.png",
         "review": "Foodizo is a gem of a restaurant! From the moment you walk in, you're greeted with warmth and hospitality. The food is delicious, and the service is impeccable. I'll definitely be returning!",
         "rating": 4.6
     }
