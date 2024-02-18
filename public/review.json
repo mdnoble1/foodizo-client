@@ -2,71 +2,71 @@
     {
         "id": 1,
         "name": "John Smith",
-        "image": "https://i.ibb.co/2cC23G9/dessert1.png",
-        "review": "Foodizo is my go-to place for delicious meals! Their menu offers a great variety, and the food always tastes fresh and flavorful. The ambiance is cozy, and the staff is friendly and attentive. I highly recommend trying their dishes!",
+        "image": "https://i.ibb.co/k8r12hc/review3.png",
+        "review": "Foodizo is my go-to place for delicious meals! The ambiance is cozy, and the staff is friendly and attentive. I highly recommend trying their dishes!",
         "rating": 5
     },
     {
         "id": 2,
         "name": "Emily Johnson",
-        "image": "https://i.ibb.co/2cC23G9/dessert1.png",
-        "review": "Foodizo exceeded my expectations! The dishes are prepared with care and attention to detail. The atmosphere is inviting, and the service is excellent. I'll definitely be coming back for more!",
+        "image": "https://i.ibb.co/Xj6cgKm/review1.png",
+        "review": "Foodizo exceeded my expectations! The atmosphere is inviting, and the service is excellent. I'll definitely be coming back for more!",
         "rating": 4.8
     },
     {
         "id": 3,
         "name": "Michael Davis",
-        "image": "https://i.ibb.co/2cC23G9/dessert1.png",
-        "review": "I had a wonderful dining experience at Foodizo! The food was delicious, and the presentation was beautiful. The staff was courteous and attentive. I highly recommend this restaurant!",
+        "image": "https://i.ibb.co/ggpdXvM/review4.png",
+        "review": "I had a wonderful dining experience at Foodizo! The staff was courteous and attentive. I highly recommend this restaurant!",
         "rating": 4.9
     },
     {
         "id": 4,
         "name": "Sarah Wilson",
-        "image": "https://i.ibb.co/2cC23G9/dessert1.png",
-        "review": "Foodizo offers a delightful culinary journey! Each dish is bursting with flavor, and the ingredients are fresh and high-quality. The staff is knowledgeable and friendly. I can't wait to visit again!",
+        "image": "https://i.ibb.co/JtJPx2b/review2.png",
+        "review": "Foodizo offers a delightful culinary journey! Each dish is bursting with flavor, and the ingredients are fresh and high-quality. I can't wait to visit again!",
         "rating": 4.7
     },
     {
         "id": 5,
         "name": "David Brown",
-        "image": "https://i.ibb.co/2cC23G9/dessert1.png",
-        "review": "I had a fantastic time dining at Foodizo! The menu selection is excellent, catering to various tastes. The service is top-notch, and the ambiance is perfect for a cozy meal. Highly recommended!",
+        "image": "https://i.ibb.co/k8r12hc/review3.png",
+        "review": "I had a fantastic time dining at Foodizo! The menu selection is excellent, catering to various tastes. Highly recommended!",
         "rating": 4.6
     },
     {
         "id": 6,
         "name": "Emma Thompson",
-        "image": "https://i.ibb.co/2cC23G9/dessert1.png",
-        "review": "Foodizo never disappoints! Whether I'm craving something light or indulgent, there's always a perfect option on the menu. The staff is friendly and accommodating, making each visit a pleasure.",
+        "image": "https://i.ibb.co/Xj6cgKm/review1.png",
+        "review": "Foodizo never disappoints! There's always a perfect option on the menu. The staff is friendly and accommodating, making each visit a pleasure.",
         "rating": 4.8
     },
     {
         "id": 7,
         "name": "James Miller",
-        "image": "https://i.ibb.co/2cC23G9/dessert1.png",
-        "review": "Foodizo is my favorite spot for a delicious meal! The flavors are always on point, and the portions are generous. The staff goes above and beyond to ensure a memorable dining experience.",
+        "image": "https://i.ibb.co/ggpdXvM/review4.png",
+        "review": "Foodizo is my favorite spot for a delicious meal! The staff goes above and beyond to ensure a memorable dining experience.",
         "rating": 4.9
     },
     {
         "id": 8,
         "name": "Olivia Wilson",
-        "image": "https://i.ibb.co/2cC23G9/dessert1.png",
-        "review": "I love dining at Foodizo! The ambiance is cozy, the service is exceptional, and the food is consistently delicious. Whether it's for a special occasion or a casual meal, Foodizo is always a great choice.",
+        "image": "https://i.ibb.co/JtJPx2b/review2.png",
+        "review": "I love dining at Foodizo! The ambiance is cozy, the service is exceptional. Whether it's for a special occasion or a casual meal, Foodizo is always a great choice.",
         "rating": 4.7
     },
     {
         "id": 9,
         "name": "William Taylor",
-        "image": "https://i.ibb.co/2cC23G9/dessert1.png",
-        "review": "Foodizo offers a wonderful dining experience! The menu is diverse, with something for everyone. The staff is attentive and friendly, making you feel right at home. I highly recommend trying their specialties!",
+        "image": "https://i.ibb.co/k8r12hc/review3.png",
+        "review": "Foodizo offers a wonderful dining experience! The staff is attentive and friendly, making you feel right at home. Highly recommended!",
         "rating": 4.5
     },
     {
         "id": 10,
         "name": "Sophia Martinez",
-        "image": "https://i.ibb.co/2cC23G9/dessert1.png",
-        "review": "Foodizo is a gem of a restaurant! From the moment you walk in, you're greeted with warmth and hospitality. The food is delicious, and the service is impeccable. I'll definitely be returning!",
+        "image": "https://i.ibb.co/Xj6cgKm/review1.png",
+        "review": "Foodizo is a gem of a restaurant! From the moment you walk in, you're greeted with warmth and hospitality. I'll definitely be returning!",
         "rating": 4.6
     }
 ]
