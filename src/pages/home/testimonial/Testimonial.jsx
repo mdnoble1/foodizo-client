@@ -8,6 +8,7 @@ import "swiper/css/pagination";
 import { EffectCoverflow, Pagination, Autoplay } from "swiper/modules";
 import { useEffect, useState } from "react";
 import { Rating } from "@smastrom/react-rating";
+import "@smastrom/react-rating/style.css";
 
 const Testimonial = () => {
   const [reviews, setReviews] = useState([]);
@@ -58,10 +59,17 @@ const Testimonial = () => {
             className="py-12 px-8 md:px-2 lg:py-12 lg:px-16"
           >
             <div className="md:w-10/12 lg:w-3/4 mx-auto bg-[#fffbef] px-4 pt-10 rounded-xl drop-shadow-xl border border-white hover:border-1 hover:border-[#ff5900] duration-500 ease-in-out">
-              <div className="w-fit bg-[#ff5900] p-1 rounded-full mx-auto">
-                <img className="w-32 mx-auto rounded-full" src={review.image} />
-              </div>
-              <h2 className="font-semibold lg:text-lg text-black uppercase text-center my-4">
+              <img
+                className="w-32 mx-auto rounded-full border-2 border-[#fffbef]"
+                src={review.image}
+              />
+              <Rating
+                className="mx-auto mt-6"
+                style={{ maxWidth: 180 }}
+                value={review.rating}
+                readOnly
+              />
+              <h2 className="font-semibold lg:text-lg text-black uppercase text-center my-2">
                 {review.name}
               </h2>
               <p className="text-sm lg:text-base text-gray-500 text-center h-28 md:h-36 mb-8">
