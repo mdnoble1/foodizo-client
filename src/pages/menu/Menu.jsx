@@ -1,11 +1,14 @@
-
+import { Helmet } from "react-helmet-async";
 
 const Menu = () => {
-    return (
-        <div>
-            Our Menu
-        </div>
-    );
+  return (
+    <section>
+      <Helmet>
+        <title>Foodizo | Our Menu</title>
+      </Helmet>
+      Our Menu
+    </section>
+  );
 };
 
 export default Menu;
