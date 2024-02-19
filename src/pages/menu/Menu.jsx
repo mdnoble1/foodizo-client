@@ -1,4 +1,5 @@
 import { Helmet } from "react-helmet-async";
+import MenuBanner from "./MenuBanner/MenuBanner";
 
 const Menu = () => {
   return (
@@ -6,7 +7,7 @@ const Menu = () => {
       <Helmet>
         <title>Foodizo | Our Menu</title>
       </Helmet>
-      Our Menu
+      <MenuBanner></MenuBanner>
     </section>
   );
 };
