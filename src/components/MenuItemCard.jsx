@@ -1,5 +1,5 @@
 const MenuItemCard = ({ item }) => {
-  console.log(item);
+  // console.log(item);
 
   const { name, recipe, image, price } = item || {};
   //   const { name, recipe, image, category, price, rating } = item || {};
