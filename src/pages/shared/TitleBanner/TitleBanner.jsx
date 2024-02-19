@@ -1,24 +1,21 @@
-const BannerCover = ( { image , title , description } ) => {
-    return (
-      <div
-        className="hero h-[400px] lg:h-[800px]"
-        style={{
-          backgroundImage:
-            `url("${image}")`,
-        }}
-      >
-        <div className="hero-overlay bg-opacity-60"></div>
-        <div className="hero-content text-center text-neutral-content">
-          <div className="max-w-2xl mt-20">
-            <h1 className="mb-5 text-4xl lg:text-7xl font-bold uppercase cinzel">{title}</h1>
-            <p className="mb-5 uppercase cinzel font-semibold lg:text-xl">
+const BannerCover = ({ image, title, description }) => {
+  return (
+    <section>
+      <div className="relative h-min cursor-pointer">
+        <img className="mx-auto" src={image} alt="banner" />
+        <div className="bg-black w-full h-full flex items-center justify-center absolute bottom-0 bg-opacity-50">
+          <div className="text-center w-9/12">
+            <h2 className="font-bold text-xl md:text-3xl lg:text-5xl text-white uppercase mb-4 lg:mb-8">
+              {title}
+            </h2>
+            <p className="font-semibold text-xs md:text-base lg:text-2xl text-gray-300">
               {description}
             </p>
           </div>
         </div>
       </div>
-    );
-  };
-  
-  export default BannerCover;
-  
+    </section>
+  );
+};
+
+export default BannerCover;

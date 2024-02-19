@@ -6,8 +6,8 @@ const MenuBanner = () => {
     <div>
       <TitleBanner
         image={image}
-        title={"OUR MENU"}
-        description={"Would you like to try a dish?"}
+        title={"Delicious Menu Delights"}
+        description={"Explore a tantalizing selection of culinary delights sure to satisfy every palate.Would you like to try a dish?"}
       ></TitleBanner>
     </div>
   );
