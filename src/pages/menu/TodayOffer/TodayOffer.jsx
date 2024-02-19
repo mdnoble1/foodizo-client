@@ -5,10 +5,10 @@ const TodayOffer = ({ items }) => {
   return (
     <section className="lg:mt-32 mb-20">
       <SectionTitle
-        title={"TODAY'S OFFER"}
-        subtitle={"Don't Miss"}
+        title={"Special Offerings"}
+        subtitle={"Daily-Dish-Delicacies"}
       ></SectionTitle>
-      <div className="container mx-auto w-11/12 lg:w-full grid grid-cols-1 md:grid-cols-2 gap-12 mt-12">
+      <div className="w-11/12 mx-auto my-10 lg:my-16 grid md:grid-cols-2">
         {items?.map((item) => (
           <MenuItemCard key={item._id} item={item}></MenuItemCard>
         ))}
