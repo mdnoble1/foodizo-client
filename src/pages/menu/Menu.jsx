@@ -1,5 +1,6 @@
 import { Helmet } from "react-helmet-async";
 import MenuBanner from "./MenuBanner/MenuBanner";
+import PopularMenu from "../home/popularMenu/PopularMenu";
 
 const Menu = () => {
   return (
@@ -8,6 +9,7 @@ const Menu = () => {
         <title>Foodizo | Our Menu</title>
       </Helmet>
       <MenuBanner></MenuBanner>
+      <PopularMenu></PopularMenu>
     </section>
   );
 };
