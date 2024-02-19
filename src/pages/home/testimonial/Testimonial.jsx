@@ -72,7 +72,7 @@ const Testimonial = () => {
               <h2 className="font-semibold lg:text-lg text-black uppercase text-center my-2">
                 {review.name}
               </h2>
-              <p className="text-sm lg:text-base text-gray-500 text-center h-28 md:h-36 mb-8">
+              <p className="text-sm lg:text-base text-gray-500 text-center h-28 md:h-36 mb-6">
                 {review.review}
               </p>
             </div>
