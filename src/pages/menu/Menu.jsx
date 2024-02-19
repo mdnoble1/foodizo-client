@@ -1,7 +1,7 @@
 import { Helmet } from "react-helmet-async";
 import MenuBanner from "./MenuBanner/MenuBanner";
-import PopularMenu from "../home/popularMenu/PopularMenu";
 import useMenu from "../../hooks/useMenu";
+import TodayOffer from "./TodayOffer/TodayOffer";
 
 const Menu = () => {
   const [menu] = useMenu();
@@ -22,7 +22,7 @@ const Menu = () => {
         <title>Foodizo | Our Menu</title>
       </Helmet>
       <MenuBanner></MenuBanner>
-      <PopularMenu></PopularMenu>
+      <TodayOffer items={offered} ></TodayOffer>
     </section>
   );
 };
