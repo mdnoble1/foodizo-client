@@ -1,5 +1,7 @@
+import { Link } from "react-router-dom";
 import MenuItemCard from "../../../components/MenuItemCard";
 import SectionTitle from "../../../components/SectionTitle";
+import MenuButton from "../../../components/MenuButton";
 
 const TodayOffer = ({ items }) => {
   return (
@@ -13,11 +15,11 @@ const TodayOffer = ({ items }) => {
           <MenuItemCard key={item._id} item={item}></MenuItemCard>
         ))}
       </div>
-      {/* <div className="mt-10 text-center">
+      <div className="text-center">
         <Link to="/shop/salads">
           <MenuButton buttonTitle={"ORDER YOUR FAVOURITE FOOD"}></MenuButton>
         </Link>
-      </div> */}
+      </div>
     </section>
   );
 };
