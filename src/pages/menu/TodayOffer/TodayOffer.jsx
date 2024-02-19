@@ -17,7 +17,7 @@ const TodayOffer = ({ items }) => {
       </div>
       <div className="text-center">
         <Link to="/shop/salads">
-          <MenuButton buttonTitle={"ORDER YOUR FAVOURITE FOOD"}></MenuButton>
+          <MenuButton buttonTitle={"Order Your Favourite Food"}></MenuButton>
         </Link>
       </div>
     </section>
